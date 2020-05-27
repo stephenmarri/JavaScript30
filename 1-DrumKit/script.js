@@ -23,7 +23,6 @@ function main(){
     });
 
     window.addEventListener('keydown',playTransition);
-    window.addEventListener('input',playTransition);
 
 
 
@@ -32,7 +31,9 @@ function main(){
     function myFunction(x) {
         if (x.matches) { // If media query matches          
           mobile.style.display="block";
-          mobile.addEventListener('change',emptyValue);          
+          mobile.addEventListener('change',emptyValue);    
+        window.addEventListener('keyup',playTransition);
+
         } 
       }
       
