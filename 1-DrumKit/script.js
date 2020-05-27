@@ -23,7 +23,7 @@ function main(){
     });
 
     window.addEventListener('keydown',playTransition);
-    window.addEventListener('keypress',playTransition);
+    window.addEventListener('input',playTransition);
 
 
 
