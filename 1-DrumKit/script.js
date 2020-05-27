@@ -17,9 +17,20 @@ function main(){
         this.classList.remove('playing')
     }
     
+    function clickHandler(e){
+        
+        console.log(this.dataset.key);
+        const audio = document.querySelector(`audio[data-key="${this.dataset.key}"]`)
+        if(!audio) return;
+        audio.currentTime=0;
+        audio.play();
+        this.classList.add('playing'); 
+    }
+
     const keys = document.querySelectorAll('.key')
     keys.forEach(element => {
         element.addEventListener('transitionend', removeTransition);
+        element.addEventListener('click', clickHandler);
     });
 
     window.addEventListener('keydown',playTransition);
@@ -31,9 +42,7 @@ function main(){
     function myFunction(x) {
         if (x.matches) { // If media query matches          
           mobile.style.display="block";
-          mobile.addEventListener('change',emptyValue);    
-        window.addEventListener('keyup',playTransition);
-
+          mobile.addEventListener('change',emptyValue);            
         } 
       }
       

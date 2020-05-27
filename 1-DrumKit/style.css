@@ -61,13 +61,16 @@ body{
 }
 
 #mobile{
-    display: none;
-    margin-top: 2rem;
-    padding-left: 1rem;
+    display: none;    
+    padding: 0 1rem;
     border: 0;
     border-radius: 5px;
     height: 2rem;
+    line-height: 2rem;
+    text-align: center;
     text-transform: uppercase;
+    border: 1px solid black;
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -87,5 +90,10 @@ body{
         background-color: #34495e;
         transition: all 0.7s;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .key.playing{
+        border-color: yellow;
+        transform: scale(1.1);
     }
   }
