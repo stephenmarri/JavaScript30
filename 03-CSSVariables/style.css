@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color: #ff0000;
+    --size: 80%;
+    --bgColor: #95a5a6;
+}
+
+@font-face{
+    font-family: 'Cedar';
+    src: url('CedarvilleCursive-Regular.ttf');
+}
+
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+    background: linear-gradient(to  right, #7f8c8d, #bdc3c7,#95a5a6 );
+}
+
+ #header{    
+    font-size: 2rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.controls-container{
+    margin-left: 10%;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.5rem;
+}
+
+.controls-container input{
+    margin-right: 1rem;
+}
+
+.img-container{
+    width: 80%;
+    height: 75%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgColor);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.img-container img{
+    width: var(--size);
+    height: var(--size);
+    content: url('bg.png');
+    background-color: var(--color);   
+}
