@@ -12,7 +12,7 @@ Array.from(panels).forEach(element => {
 
 
 function toggleOpen(){
-    panels.forEach(x => x.classList.remove('open'))
+    if(!this.classList.contains('open') )panels.forEach(x => x.classList.remove('open'))
     this.classList.toggle('open')
 }
 
