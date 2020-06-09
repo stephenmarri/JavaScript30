@@ -15,6 +15,7 @@ ctx.globalCompositeOperation='darken'
 
 
 function draw(e){
+    
     if(!isDrawing) return
     ctx.beginPath();
     ctx.strokeStyle=`hsl(${hue},50%,50%)`
@@ -42,7 +43,9 @@ function draw(e){
 
 }
 
-
+function Erase(){
+    ctx.clearRect(0,0,canvas.width,canvas.height)
+}
 
 
 canvas.addEventListener('mousedown',(e)=> {
