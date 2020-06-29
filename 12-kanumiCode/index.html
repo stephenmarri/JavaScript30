@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanumi Code</title>
+</head>
+<body>
+<script>
+document.addEventListener('keyup',(e)=>handler(e))
+let easterEgg = 'stephen'
+var pressed = []
+function handler(e){
+    pressed.push(e.key)
+    pressed.splice(-easterEgg.length-1,pressed.length-easterEgg.length)
+    console.log(pressed);
+    if(pressed.join('')=='stephen'){
+        console.clear()
+    console.log('You found a easter egg');
+    }
+    
+}
+    
+</script>
+</body>
+</html>
