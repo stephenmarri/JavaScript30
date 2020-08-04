@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    background-color: #4D81AE;
+}
+
+.wrapper{
+    background-color: #80BACB;
+    width: 50%;
+    height: 100%;
+    margin:  0 auto;
+    text-align: justify;
+    padding: 1rem;
+
+}
+
+h2{
+    text-align: center;
+}
+
+#one{
+    width: 50%;
+    background-repeat:no-repeat ;
+    background-size: fit;
+    float: left;
+    margin: 15px 15px 5px 0;
+}
+#two{
+    width: 40%;
+    
+    background-repeat:no-repeat ;
+    background-size: fit;
+    float: right;
+    margin: 15px 0 5px 15px;
+}
+#three{
+
+    float: left;
+    margin: 15px 15px 5px 0;
+}
+
+img{
+    transition: all 0.3s ease-in;
+visibility: hidden;
+}
+
+.left{
+   transform: translateX(-40%);
+}
+.right{
+   transform: translateX(40%);
+}
+
+.active{
+    visibility: visible;
+    transform: translateX(0);
+}
