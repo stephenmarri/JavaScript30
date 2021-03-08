@@ -5,4 +5,10 @@ Link to the course:https://www.youtube.com/playlist?list=PLu8EoSxDXHP6CGK4YVJhL_
   
 Below are the github pages links where you can access each project.    
   
-1. Drum Kit: 
+1. Drum Kit: [Click Here for the web] (https://stephenmarri.github.io/JavaScript30/01-DrumKit/)
+2. Analog Clock: [Click Here for the web] (https://stephenmarri.github.io/JavaScript30/02-AnalogClock/index.html)
+3. Change Colors: [Click Here for the web] (https://stephenmarri.github.io/JavaScript30/03-CSSVariables/)
+4. Flex Panels: [Click Here for the web] (https://stephenmarri.github.io/JavaScript30/05-FlexPanels/index.html)
+5. Indian Cities: [Click Here for the web] (https://stephenmarri.github.io/JavaScript30/06-TypeAhead/)
+6. Canvas: [Click Here for the web] (https://stephenmarri.github.io/JavaScript30/08-Canvas/)
+7. Check Boxes: [Click Here for the web] (https://stephenmarri.github.io/JavaScript30/08-Canvas/)
