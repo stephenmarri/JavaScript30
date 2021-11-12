@@ -12,5 +12,5 @@ Below are the github pages links where you can access each project.
 4. [Flex Panels](https://stephenmarri.github.io/JavaScript30/05-FlexPanels/index.html)
 5. [Indian Cities](https://stephenmarri.github.io/JavaScript30/06-TypeAhead/)
 6. [Canvas](https://stephenmarri.github.io/JavaScript30/08-Canvas/)
-7. [Check Boxes](https://stephenmarri.github.io/JavaScript30/08-Canvas/)
- 
+7. [Check Boxes](https://stephenmarri.github.io/JavaScript30/10-CheckBoxes/)
+8. [Video Player](https://stephenmarri.github.io/JavaScript30/11-VideoPlayer/)
